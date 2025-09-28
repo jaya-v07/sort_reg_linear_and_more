@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # 1 line to load CSV
-data = pd.read_csv(r"C:\Users\jayav\Downloads\Telegram Desktop\gameGuess\student_career_performance.csv")
+data = pd.read_csv("student_career_performance.csv")
 
 # Explore
 print(data.head())
